@@ -1,72 +1,283 @@
-.menu {
-    top: 102px;
-    left: 310px;
-    width: 34px;
-    height: 29px;
-    background: transparent;
-    position: absolute;
+.pagina1 {
+  top: 0px;
+  left: 0px;
+  background: transparent url("https://i.imgur.com/FCLsX30.png") 0% 0% no-repeat padding-box;
+  width: 1360px;
+  height: 690.5px;
+  background-size: cover;
 }
 
-.hamburguer {
+#menuHamburguer {
+  display: none;
+}
+
+.logoBranca {
+  top: 50px;
+  left: 160px;
+  width: 200px;
+  height: 133px;
+  position: relative;
+}
+
+.pagina1 ul {
+    list-style: none;
+}
+
+.pagina1 ul li a {
+  text-align: left;
+  font: normal normal normal 35px/47px Playfair Display;
+  letter-spacing: 0px;
+  color: #E7E9E6;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.elementoMenu1 {
+  top: 80px;
+  left: 670px;
+  position: absolute;
+}
+
+.elementoMenu2 {
+  top: 80px;
+  left: 840px;
+  position: absolute;
+}
+
+.elementoMenu3 {
+  top: 80px;
+  left: 1070px;
+  position: absolute;
+}
+
+.pagina1 p {
+  top: 270px;
+  left: 700px;
+  font: normal normal normal 100px/133px Playfair Display;
+  letter-spacing: 0px;
+  color: #E7E9E6;
+  opacity: 1;
+  position: absolute;
+}
+
+.linha {
+  left: 635px;
+  width: 725px;
+  height: 2px;
+  background: #E7E9E6 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+}
+
+.pagina2 {
+  top: 690.5px;
+  width: 1360px;
+  height: 690.5px;
+  background: #35363A 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.pagina2 h2 {
+  text-align: center;
+  font: normal normal bold 80px/107px Playfair Display;
+  letter-spacing: 0px;
+  color: #B7AB9D;
+  opacity: 1;
+  position: relative;
+  margin-top: 50px;
+}
+
+.produto1 {
+  top: 223px;
+  left: 160px;
+  width: 280px;
+  height: 348px;
+  position: absolute;
+  background: transparent url("https://i.imgur.com/A3yM5Bp.png") 0% 0% no-repeat padding-box;
+  background-size: cover;
+}
+
+.produto2 {
+  top: 223px;
+  left: 530px;
+  width: 280px;
+  height: 348px;
+  position: absolute;
+  background: transparent url("https://i.imgur.com/0XjvcR9.png") 0% 0% no-repeat padding-box;
+  background-size: cover;
+}
+
+.produto3 {
+  top: 223px;
+  left: 900px;
+  width: 280px;
+  height: 348px;
+  position: absolute;
+  background: transparent url("https://i.imgur.com/WML6ME9.png") 0% 0% no-repeat padding-box;
+  background-size: cover;
+}
+
+.pagina2 h3 {
+  top: 0px;
+  text-align: center;
+  font: normal normal normal 25px/38px Playfair Display;    letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+  position: relative;
+}
+
+.pagina2 button {
+  top: 315px;
+  left: 33px;
+  width: 214px;
+  height: 70px;
+  background: #D6C2B7 0% 0% no-repeat padding-box;
+  border: 2px solid #B7AB9D;
+  font: normal normal normal 25px/32px Playfair Display;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.pagina3 {
+  top: 1381px;
+  left: 8px;
+  width: 1360px;
+  height: 270px;
+  background: #B7AB9D 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  position: absolute;
+}
+
+.logoPreta {
+  top: 60px;
+  left: 160px;
+  position: relative;
+}
+
+.iconeTelefone {
+  top: 60px;
+  left: 900px;
+  position: absolute;
+}
+
+.iconeEmail {
+  top: 110px;
+  left: 900px;
+  position: absolute;
+}
+
+.iconeInstagram {
+  top: 160px;
+  left: 900px;
+  position: absolute;
+}
+
+.pagina3 p {
+  left: 950px;
+  font: normal normal normal 35px/47px Playfair Display;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+  position: absolute;
+}
+
+.numeroTelefone {
+  top: 13px;
+  position: absolute;
+}
+
+.enderecoEmail {
+  top: 63px;
+  position: absolute;
+}
+
+.userInstagram {
+  top: 113px;
+  position: absolute;
+}
+
+.pagina4 {
+  top: 1652px;
+  width: 1360px;
+  height: 99.3px;
+  background: #E7E9E6 0% 0% no-repeat padding-box;
+  position: absolute;
+}
+
+.pagina4 p {
+  left: 770px;
+  font: normal normal normal 25px/37px Playfair Display;
+  letter-spacing: 0px;
+  color: #35363A;
+  position: absolute;
+}
+
+@media(max-width: 375px) {
+  .hamburguer {
+    top: 37px;
+    left: 300px;
     position: relative;
     display: block;
     background: #ffffff;
     width: 34px;
     height: 4px;
     transition: 0.5s ease-in-out;
-}
+  }
 
-.hamburguer:before,
-.hamburguer:after {
-    background: #ffffff;
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-}
+  .hamburguer:before,
+  .hamburguer:after {
+      background: #ffffff;
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      transition: 0.5s ease-in-out;
+  }
 
-.hamburguer:before {
-    top: -12px;
-}
+  .hamburguer:before {
+      top: -12px;
+  }
 
-.hamburguer:after {
-    bottom: -12px;
-}
+  .hamburguer:after {
+      bottom: -12px;
+  }
 
-input {
-    display: none;
-}
+  input {
+      display: none;
+  }
 
-input:checked ~ label .menu {
-    background-color: #35363A;
-    box-shadow: 0 0 0 100vw #35363A, 0 0 0 100vh;
-}
+  input:checked ~ label .menu {
+      background-color: #35363A;
+      box-shadow: 0 0 0 100vw #35363A, 0 0 0 100vh;
+  }
 
-input:checked ~ label ul {
-    opacity: 1;
-}
+  input:checked ~ label ul {
+      opacity: 1;
+  }
 
-input:checked ~ label .slogan {
-    opacity: 0;
-}
+  input:checked ~ label .slogan {
+      opacity: 0;
+  }
 
-input:checked ~ label .hamburguer {
-    transform: rotate(45deg);
-}
+  input:checked ~ label .hamburguer {
+      transform: rotate(45deg);
+  }
 
-input:checked ~ label .hamburguer:before {
-    transform: rotate(90deg);
-    top: 0px;
-}
+  input:checked ~ label .hamburguer:before {
+      transform: rotate(90deg);
+      top: 0px;
+  }
 
-input:checked ~ label .hamburguer:after {
-    transform: rotate(90deg);
-    bottom: 0px;
-}
+  input:checked ~ label .hamburguer:after {
+      transform: rotate(90deg);
+      bottom: 0px;
+  }
 
-.pagina1 {
+  .pagina1 {
     top: 0px;
     left: 0px;
     width: 375px;
@@ -75,57 +286,68 @@ input:checked ~ label .hamburguer:after {
     position: absolute;
     background-size: cover;
     background-position: -105px 40px;
-}
+  }
 
-.pagina1 ul {
+  .logoBranca {
+      top: 80px;
+      left: 40px;
+      width: 134px;
+      height: 56px;
+      position: relative;
+  }
+  .pagina1 ul {
     list-style: none;
     position: relative;
     opacity: 0;
-}
+  }
 
-.pagina1 ul li a {
-    height: 47px;
-    text-align: left;
-    font: normal normal normal 35px/47px Playfair Display;
-    letter-spacing: 0px;
-    color: #B7AB9D;
-    opacity: 1;
-    position: relative;
-    text-decoration: none;
-}
+  .pagina1 ul li a {
+      height: 47px;
+      text-align: left;
+      font: normal normal normal 35px/47px Playfair Display;
+      letter-spacing: 0px;
+      color: #B7AB9D;
+      opacity: 1;
+      position: relative;
+      text-decoration: none;
+  }
 
-.elementoMenu1 a {
-    top: 166px;
-    left: 106px;
-    width: 104px;
-}
+  .elementoMenu1 a {
+      top: 166px;
+      left: 106px;
+      width: 104px;
+  }
 
-.elementoMenu2 a {
-    top: 253px;
-    left: 72px;
-    width: 184px;
-}
+  .elementoMenu2 a {
+      top: 253px;
+      left: 72px;
+      width: 184px;
+  }
 
-.elementoMenu3 a {
-    top: 340px;
-    left: 76px;
-    width: 163px;
-}
+  .elementoMenu3 a {
+      top: 340px;
+      left: 76px;
+      width: 163px;
+  }
 
-.pagina1 p {
-    top: 497px;
-    left: 139px;
-    width: 205px;
-    height: 102px;
-    text-align: right;
-    font: normal normal normal 38px/51px Playfair Display;
-    letter-spacing: 0px;
-    color: #E7E9E6;
-    opacity: 1;
-    position: absolute;
-}
+  .pagina1 p {
+      top: 497px;
+      left: 139px;
+      width: 205px;
+      height: 102px;
+      text-align: right;
+      font: normal normal normal 38px/51px Playfair Display;
+      letter-spacing: 0px;
+      color: #E7E9E6;
+      opacity: 1;
+      position: absolute;
+  }
 
-.pagina2 {
+  .linha {
+    display: none;
+  }
+
+  .pagina2 {
     top: 665px;
     left: 0px;
     width: 375px;
@@ -135,69 +357,72 @@ input:checked ~ label .hamburguer:after {
     position: absolute;
 }
 
-.pagina2 h2 {
-    text-align: center;
-    font: normal normal bold 40px/53px Playfair Display;
-    letter-spacing: 0px;
-    color: #B7AB9D;
-    opacity: 1;
-    position: relative;
-    margin-top: 76px;
-}
+  .pagina2 h2 {
+      text-align: center;
+      font: normal normal bold 40px/53px Playfair Display;
+      letter-spacing: 0px;
+      color: #B7AB9D;
+      opacity: 1;
+      position: relative;
+      margin-top: 76px;
+  }
 
-.produto1 {
-    left: 73px;
-    width: 230px;
-    height: 288px;
-    background: transparent url("https://i.imgur.com/A3yM5Bp.png") 0% 0% no-repeat padding-box;
-    background-size: cover;
-    position: relative;
-}
+  .produto1 {
+      top: 0px;
+      left: 73px;
+      width: 230px;
+      height: 288px;
+      background: transparent url("https://i.imgur.com/A3yM5Bp.png") 0% 0% no-repeat padding-box;
+      background-size: cover;
+      position: relative;
+  }
 
-.produto2 {
-    left: 73px;
-    width: 230px;
-    height: 288px;
-    background: transparent url("https://i.imgur.com/0XjvcR9.png") 0% 0% no-repeat padding-box;
-    background-size: cover;
-    position: relative;
-    margin-top: 65px;
-}
+  .produto2 {
+      top: 0px;
+      left: 73px;
+      width: 230px;
+      height: 288px;
+      background: transparent url("https://i.imgur.com/0XjvcR9.png") 0% 0% no-repeat padding-box;
+      background-size: cover;
+      position: relative;
+      margin-top: 65px;
+  }
 
-.produto3 {
-    left: 73px;
-    width: 230px;
-    height: 288px;
-    background: transparent url("https://i.imgur.com/WML6ME9.png") 0% 0% no-repeat padding-box;
-    background-size: cover;
-    position: relative;
-    margin-top: 66px;
-}
+  .produto3 {
+      top: 0px;
+      left: 73px;
+      width: 230px;
+      height: 288px;
+      background: transparent url("https://i.imgur.com/WML6ME9.png") 0% 0% no-repeat padding-box;
+      background-size: cover;
+      position: relative;
+      margin-top: 66px;
+  }
 
-.pagina2 h3 {
-    top: 13px;
-    text-align: center;
-    font: normal normal normal 21px/28px Playfair Display;
-    letter-spacing: 0px;
-    color: #35363A;
-    opacity: 1;
-    position: relative;
-}
+  .pagina2 h3 {
+      top: 13px;
+      text-align: center;
+      font: normal normal normal 21px/28px Playfair Display;
+      letter-spacing: 0px;
+      color: #35363A;
+      opacity: 1;
+      position: relative;
+  }
 
-.pagina2 button {
-    top: 263px;
-    left: 33px;
-    width: 167px;
-    height: 52px;
-    background: #D6C2B7 0% 0% no-repeat padding-box;
-    border: 2px solid #B7AB9D;
-    font: normal normal normal 21px/28px Playfair Display;
-    opacity: 1;
-    position: absolute;
-    cursor: pointer;
-}
+  .pagina2 button {
+      top: 263px;
+      left: 33px;
+      width: 167px;
+      height: 52px;
+      background: #D6C2B7 0% 0% no-repeat padding-box;
+      border: 2px solid #B7AB9D;
+      font: normal normal normal 21px/28px Playfair Display;
+      opacity: 1;
+      position: absolute;
+      cursor: pointer;
+  }
 
-.pagina3 {
+  .pagina3 {
     top: 1939px;
     left: 0px;
     width: 373px;
@@ -208,63 +433,69 @@ input:checked ~ label .hamburguer:after {
     position: absolute;
 }
 
-.logoPreta {
-    top: 68px;
-    left: 77px;
-    position: relative;
-}
+  .logoPreta {
+      width: 220px;
+      height: 92px;
+      top: 68px;
+      left: 77px;
+      position: relative;
+  }
 
-.iconeTelefone {
-    top: 148.95px;
-    left: -150px;
-    position: relative;
-}
+  .iconeTelefone {
+      top: 148.95px;
+      left: -160px;
+      position: relative;
+  }
 
-.numeroTelefone {
-    top: 100.95px;
-}
+  .numeroTelefone {
+      top: 100.95px;
+  }
 
-.iconeEmail {
-    top: 190.13px;
-    left: -170px;
-    position: relative;
-}
+  .iconeEmail {
+      top: 190.13px;
+      left: -190px;
+      position: relative;
+  }
 
-.enderecoEmail {
-    top: 95px;
-}
+  .enderecoEmail {
+      top: 95px;
+  }
 
-.iconeInstagram {
-    top: 235.06px;
-    left: -194px;
-    position: relative;
-}
+  .iconeInstagram {
+      top: 235.06px;
+      left: -225px;
+      position: relative;
+  }
 
-.userInstagram {
-    top: 90px;
-}
+  .userInstagram {
+      top: 90px;
+  }
 
-.pagina3 p {
-    left: 105px;
-    font: normal normal normal 20px/27px Playfair Display;
-    letter-spacing: 0px;
-    color: #35363A;
-    opacity: 1;
-    position: relative;
-}
-.pagina4{
-    top: 2333px;
-    left: 0px;
-    width: 375px;
-    height: 104px;
-    background: #E7E9E6 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
-}
+  .pagina3 p {
+      left: 105px;
+      font: normal normal normal 20px/27px Playfair Display;
+      letter-spacing: 0px;
+      color: #35363A;
+      opacity: 1;
+      position: relative;
+  }
 
-.pagina4 p {
-    text-align: center;
-    font: normal normal normal 20px/27px Playfair Display;
-    letter-spacing: 0px;
-    color: #35363A;
+  .pagina4{
+      top: 2333px;
+      left: 0px;
+      width: 375px;
+      height: 104px;
+      background: #E7E9E6 0% 0% no-repeat padding-box;
+      opacity: 1;
+      position: absolute;
+  }
+
+  .pagina4 p {
+      top: 20px;
+      left: 35px;
+      font: normal normal normal 15px/22px Playfair Display;
+      letter-spacing: 0px;
+      color: #35363A;
+      position: relative;
+  }
 }
